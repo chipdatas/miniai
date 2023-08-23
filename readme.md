@@ -6,6 +6,10 @@
 3. 支持多个对话，多个对话可以同时进行，互不影响。
 4. 支持多用户，团队使用。
 
+![img.png](img.png)
+
+
+![2.png](2.png)
 
 ## 用法
 
@@ -13,10 +17,11 @@
 
 **推荐使用以下命令：**
 
+- 运行命令(端口和文件目录)[用户home目录下]【后台运行】：
 ```
-# 运行命令(端口和文件目录)[用户home目录下]：
-docker run -it -p 7777:7777 -v ~/miniai/chat:/code/app/chat  -v ~/miniai/preset_mask:/code/app/preset_mask   -v config:/code/app/config     chipdatas/miniai:latest
+docker run -it -d -p 7777:7777 -v ~/miniai/chat:/code/app/chat  -v ~/miniai/preset_mask:/code/app/preset_mask   -v config:/code/app/config     chipdatas/miniai:latest
 ```
+
 
 一旦运行完成，则打开浏览器:
 ```

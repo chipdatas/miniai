@@ -4,7 +4,7 @@
 ####  使用这个小工具的朋友，恳请在自己网站（如果有的话）上加个友情链接，这是我更新的动力和目的，有你支持，将更新更多功能上去
 > 友情链接信息： Chipdatas  - https://www.chipdatas.com
 
-[TOC]
+
 
 
 ## 亮点
@@ -26,7 +26,7 @@
 
 - 运行命令(端口和文件目录)[用户home目录下]【后台运行】：
 ```
-docker run -it -d -p 7777:7777 -v ~/miniai/chat:/code/app/chat  -v ~/miniai/preset_mask:/code/app/preset_mask   -v config:/code/app/config     chipdatas/miniai:latest
+docker run -it -d -p 7777:7777 -v ~/miniai/chat:/code/app/chat  -v ~/miniai/preset_mask:/code/app/preset_mask   -v ~/miniai/config:/code/app/config     chipdatas/miniai:latest
 ```
 
 
@@ -50,16 +50,6 @@ server {
 ```
 
 
-
-
-**docker配置说明，供参考**
-```shell
-运行命令（关docker则配置消失）：docker run -p 你要的端口:7777 -it chipdatas/miniai:latest
-
-运行命令(端口和文件目录)：docker run -it -p 你要的端口:7777 -v 本地路径存放聊天记录的文件夹:/code/app/chat  -v 本地路径存放预设角色的文件夹:/code/app/preset_mask   -v 本地路径存放配置文件的文件夹:/code/app/config     chipdatas/miniai:latest
-
-
-```
 
 ### 本地
 等前端放出后再出。

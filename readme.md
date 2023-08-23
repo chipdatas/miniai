@@ -3,7 +3,7 @@
 **当前版本： v0.1.0**
 
 ####  使用这个小工具的朋友，恳请在自己网站（如果有的话）上加个友情链接，这是我更新的动力和目的，有你支持，将更新更多功能上去
-> 友情链接信息： Chipdatas  - https://www.chipdatas.com
+> 友情链接信息： Chipdatas - https://chipdatas.com
 
 
 ## 亮点
